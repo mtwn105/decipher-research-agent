@@ -110,7 +110,7 @@ export default function RootLayout({
       <body className={`${oxanium.className} antialiased`}>
         <Script
           defer
-          src="https://analytics.amitwani.dev/script.js"
+          src="https://mtwnanalytics.xyz/script.js"
           data-website-id="d09597b1-692e-4f54-a378-97e224b7630b"
           strategy="afterInteractive"
         />
