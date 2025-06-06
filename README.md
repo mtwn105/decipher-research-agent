@@ -74,6 +74,7 @@ Powered by Bright Data's MCP Server, DecipherIt bypasses geo-restrictions and bo
 ---
 
 ## 🏗️ Architecture
+
 ![DecipherIt drawio](https://github.com/user-attachments/assets/085c41aa-4cdc-400f-b6e0-af8cbce4c5a3)
 
 ---
@@ -155,7 +156,7 @@ Powered by Bright Data's MCP Server, DecipherIt bypasses geo-restrictions and bo
    cd ../backend
    uv venv
    source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-   uv pip install -e .
+   uv sync
    cp .env.example .env
    # Configure your environment variables
    ```
@@ -167,7 +168,7 @@ Powered by Bright Data's MCP Server, DecipherIt bypasses geo-restrictions and bo
    cd client && pnpm dev
 
    # Terminal 2 - Backend
-   cd backend && python server.py
+   cd backend &&  uv run uvicorn server:app --host 0.0.0.0 --port 8001
    ```
 
 ### 🌐 Bright Data MCP Server Setup
