@@ -17,6 +17,10 @@
 </div>
 
 ---
+## ⭐ Star on GitHub!
+
+[![Star History Chart](https://api.star-history.com/svg?repos=mtwn105/decipher-research-agent&type=Date)](https://www.star-history.com/#mtwn105/decipher-research-agent&Date)
+---
 
 ## ✨ Overview
 
